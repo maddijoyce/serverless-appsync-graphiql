@@ -1,6 +1,6 @@
 {
   "name": "serverless-appsync-graphiql",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Graphiql Server based on Serverless Config",
   "repository": "https://github.com/maddijoyce/serverless-appsync-graphiql",
   "author": "Maddi Joyce <maddi@maddijoyce.com>",
