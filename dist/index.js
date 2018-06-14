@@ -34,7 +34,6 @@ function start(configFile, username, password) {
         const credentials = new AWS.SharedIniFileCredentials({
             profile: config.provider.profile
         });
-        console.log(config.provider.profile, credentials);
         AWS.config.update({ region: config.provider.region, credentials });
         const cognito = new AWS.CognitoIdentityServiceProvider();
         const auth = (yield cognito
