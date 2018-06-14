@@ -32,5 +32,10 @@
     "@types/opn": "5.1.0",
     "tslint": "5.10.0",
     "typescript": "2.9.2"
+  },
+  "peerDependencies": {
+    "serverless": "*",
+    "serverless-appsync-plugin": "*",
+    "serverless-stack-output": "*"
   }
 }
